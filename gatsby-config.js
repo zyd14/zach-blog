@@ -14,8 +14,6 @@ module.exports = {
       name: `Zach Romer`,
       summary: `who currently lives in Salt Lake City and spends most of his time cooking, gardening, running, and writing software.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
   },
   plugins: [
     `gatsby-plugin-image`,
