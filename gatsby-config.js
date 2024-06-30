@@ -12,7 +12,7 @@ module.exports = {
     title: `Zach's thoughts and musings`,
     author: {
       name: `Zach Romer`,
-      summary: `who currently lives in Salt Lake City and spends his time cooking, gardening, running, and writing software. `,
+      summary: `who currently lives in Salt Lake City and spends most of his time cooking, gardening, running, and writing software.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
