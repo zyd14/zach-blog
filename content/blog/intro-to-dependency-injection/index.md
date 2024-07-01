@@ -1,7 +1,7 @@
 ---
 title: Intro to Dependency Injection with Python, Dagster, and Spark
 date: "2024-06-29T22:12:03.284Z"
-description: "Dependency Injection is a design pattern that allows for the removal of hard-coded dependencies from an application. This allows for the creation of loosely-coupled code that is easier to maintain and in particular to test. This post will introduce the concept of dependency injection and provide examples of how it can be used to make code easier to test when building data-intensive applications"
+description: "Dependency Injection is a design pattern that allows for the removal of hard-coded dependencies from an application. This allows for the creation of loosely-coupled code that is easier to maintain and in particular to test. This post will introduce the concept of dependency injection and provide examples of how it can be used to make code easier to test when building data-intensive applications. The post will conclude with an example of how to use Dagster's Resource mechanism to inject Spark session dependencies."
 ---
 
 This is my first post on my new fake blog! How exciting!
