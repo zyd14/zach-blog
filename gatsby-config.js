@@ -12,7 +12,7 @@ module.exports = {
     title: `Zach's thoughts and musings`,
     author: {
       name: `Zach Romer`,
-      summary: `who currently lives in Salt Lake City and spends most of his time cooking, gardening, running, and writing software.`,
+      summary: `who currently lives in Salt Lake City and spends most of his time cooking, gardening, running, and writing software. In his work, Zach focuses on building developer tooling and data platforms, with a focus on scientific applications. `,
     },
   },
   plugins: [
