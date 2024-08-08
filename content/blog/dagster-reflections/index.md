@@ -9,7 +9,11 @@ Op executions require instantiating a number of layered components internal to t
 
 ## Dagster is not built for real-time processing
 
-## You're generally better off building your own IO managers and Resources
+If you do want to try, here are some tips:
+- for container-based deployments on AWS, you'll likely need to self-host the infrastructure that Dagster is deployed on. This is because when you use serverless infrastructure such as ECS/EKS Fargate, every job that gets provisioned is possibly placed on a different host, which requires the docker image to be downloaded every time. By hosting your own cluster on EC2 you can take advantage of on-instance docker caches, which significantly reduces overall initialization time for a Dagster run. This also makes Dagster deployments faster, which also benefit from a docker cache.
+- 
+
+## Don't be afraid to make your own IO managers and Resources
 
 Dagster is a framework through-and-through, giving you the pieces you need to build a data pipeline in a very opinionated fashion with the goal of guiding you toward software-engineering best practices like dependency injection, separation of concerns, testability, and modularity. There have been a significant number of community contributions to create integrations with a myriad of services, but it's important to keep in mind that most of these integrations have a specific goal in mind which the integration was built to achieve. In other words, at least when it comes to IO managers and Resources that integrate with a specific service, often the integrations are not generalized to the point where they are flexible enough to serve all use cases.
 
